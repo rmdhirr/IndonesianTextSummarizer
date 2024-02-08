@@ -6,4 +6,5 @@ This repository hosts a sequence-to-sequence model that employs BERT for encodin
 # Finetuning Corpus
 This model is fine-tuned using the [id_liputan6](https://huggingface.co/datasets/id_liputan6) dataset, based on the [cahya/bert-base-indonesian-1.5G and cahya/gpt2-small-indonesian-522M](https://huggingface.co/cahya), both developed by Cahya.
 
-https://bit.ly/colabseq2seqsummarizer
+# Usage
+Google Colab: https://colab.research.google.com/drive/1x1l6m5rKQGUszmX3CkqHf9tpvKvMkpzB?usp=sharing
