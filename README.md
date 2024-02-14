@@ -27,8 +27,8 @@ The primary objective of the Bert2GPT Indonesian Text Summarizer is to enhance t
 # Dataset
 
 ## Finetuning Corpus
-This model is fine-tuned using the [id_liputan6](https://huggingface.co/datasets/id_liputan6) dataset, based on the [cahya/bert-base-indonesian-1.5G and cahya/gpt2-small-indonesian-522M](https://huggingface.co/cahya), both developed by Cahya.
-For the Bert2GPT Indonesian Text Summarizer, the canonical subset of the id_liputan6 dataset, accessible via the Hugging Face platform, serves as the foundation for the model's finetuning. This dataset, specifically curated from Liputan6 — a prominent Indonesian news website — offers a rich collection of text summarization pairs that are pivotal for training models in the Indonesian language context.
+
+For the Bert2GPT Indonesian Text Summarizer, the canonical subset of the id_liputan6 dataset, accessible via the [Hugging Face](https://huggingface.co/datasets/id_liputan6) platform, serves as the foundation for the model's finetuning. This dataset, specifically curated from Liputan6 — a prominent Indonesian news website — offers a rich collection of text summarization pairs that are pivotal for training models in the Indonesian language context.
 
 The id_liputan6 dataset is structured into two distinct parts:
 
