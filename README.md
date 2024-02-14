@@ -35,4 +35,4 @@ By utilizing the canonical subset, the Bert2GPT model is exposed to a vast and v
 The decision to employ the canonical subset underscores the project's commitment to creating a summarization tool that is highly attuned to the specifics of the Indonesian news landscape, ensuring relevance and applicability across a broad spectrum of news content.
 
 # Usage
-Google Colab: https://colab.research.google.com/drive/1x1l6m5rKQGUszmX3CkqHf9tpvKvMkpzB?usp=sharing
+Google Colab: [Bert2GPT](https://colab.research.google.com/drive/1x1l6m5rKQGUszmX3CkqHf9tpvKvMkpzB#scrollTo=gCEldMjP1FnD)
