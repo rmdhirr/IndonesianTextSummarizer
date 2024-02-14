@@ -24,9 +24,17 @@ Housed in this repository is a model meticulously fine-tuned on the 'id_liputan6
 The primary objective of the Bert2GPT Indonesian Text Summarizer is to enhance the accessibility of news content by generating concise and coherent summaries. This endeavor aligns with the broader goal of leveraging AI to bridge the gap between vast information streams and the end-user's need for quick and reliable insights. Through this project, we aim to contribute to the domain of natural language processing by offering a tool that not only streamlines content consumption but also fosters a better-informed and engaged audience in the Indonesian digital ecosystem.
 
 ---
-# Finetuning Corpus
+# Dataset
+
+## Finetuning Corpus
 This model is fine-tuned using the [id_liputan6](https://huggingface.co/datasets/id_liputan6) dataset, based on the [cahya/bert-base-indonesian-1.5G and cahya/gpt2-small-indonesian-522M](https://huggingface.co/cahya), both developed by Cahya.
 For the Bert2GPT Indonesian Text Summarizer, the canonical subset of the id_liputan6 dataset, accessible via the Hugging Face platform, serves as the foundation for the model's finetuning. This dataset, specifically curated from Liputan6 — a prominent Indonesian news website — offers a rich collection of text summarization pairs that are pivotal for training models in the Indonesian language context.
+
+The id_liputan6 dataset is structured into two distinct parts:
+
+- Xtreme Set: Designed for more challenging summarization scenarios, the Xtreme set features a diverse range of text lengths and complexities. It is intended to push the boundaries of summarization models in terms of understanding and generating concise summaries from more intricate articles.
+
+- Canonical Set: This portion of the dataset provides a standard benchmark for summarization tasks, with a larger set of examples for training, development, and testing. It is characterized by its balanced representation of various news categories, making it ideal for general summarization models.
 
 The canonical set is characterized by its comprehensive coverage, including a balanced mix of topics and writing styles reflective of mainstream Indonesian news reporting. This aspect of the dataset ensures that the finetuning process incorporates a wide array of linguistic nuances and information structures typical of Indonesian news articles.
 
