@@ -254,5 +254,37 @@ By meticulously setting up the model, including the integration of pre-trained c
 
 ---
 
-# Usage
+## Training Model
+
+Training the Bert2GPT Indonesian Text Summarizer involves a detailed setup of training arguments, the creation of a trainer object, and the execution of the training process. This section outlines the initial training phase and subsequent continuation of training to further refine the model's performance.
+
+## Initial Training
+The initial training phase sets up the environment and parameters for training the model. This includes specifying the output directory for results, the total number of training steps, batch sizes for training and evaluation, warmup steps for the learning rate scheduler, weight decay for regularization, and the directory for storing logs. A `Trainer` object is then created, configured with the model, training arguments, and datasets. The training is initiated using the `Trainer.train()` method, starting the process of model optimization based on the provided datasets.
+
+### Training Arguments
+Training arguments are defined to control various aspects of the training process, such as the output directory, number of training steps, batch sizes, warmup steps, weight decay, and logging configurations. These arguments play a crucial role in managing the training workflow and ensuring efficient utilization of computational resources.
+
+### Trainer Creation
+A `Trainer` object is instantiated with the model, training arguments, training dataset, and evaluation dataset. This object orchestrates the training process, handling tasks such as data loading, model optimization, and evaluation.
+
+### Model Training
+The model training is initiated with the `trainer.train()` method, which starts the optimization process based on the defined training steps and datasets. This step is pivotal in adjusting the model weights to minimize the loss function and improve summarization performance.
+
+## Continue Training
+To further enhance the model's capabilities, training can be continued from a specific checkpoint. This involves loading the model and tokenizer from a previous checkpoint and redefining the training arguments, possibly with adjusted parameters like the total number of training steps. The continuation of training allows for incremental improvements to the model, leveraging the progress made in earlier training phases.
+
+### Loading Model from Checkpoint
+The model and tokenizer are reloaded from a specified checkpoint, ensuring that training resumes from the last saved state. This step is crucial for maintaining continuity in the training process and building upon the previously learned weights.
+
+### Redefining Training Arguments
+Training arguments are redefined, possibly with adjustments to reflect the new phase of training. This includes setting a new total number of training steps and specifying the checkpoint to resume from, ensuring a seamless continuation of the training process.
+
+### Reinitializing the Trainer
+A new `Trainer` object is created with the updated model, tokenizer, and training arguments. This trainer is then used to continue the training process, further refining the model's performance based on additional optimization steps.
+
+By structuring the training into initial and continued phases, the Bert2GPT Indonesian Text Summarizer benefits from a flexible and iterative approach to model development, allowing for ongoing improvements and adjustments based on performance evaluations and new requirements.
+
+---
+
+# Attachment
 Google Colab: [Bert2GPT](https://colab.research.google.com/drive/1x1l6m5rKQGUszmX3CkqHf9tpvKvMkpzB#scrollTo=gCEldMjP1FnD)
