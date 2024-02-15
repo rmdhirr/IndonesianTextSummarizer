@@ -286,6 +286,20 @@ By structuring the training into initial and continued phases, the Bert2GPT Indo
 
 ---
 
+## Model Evaluation
+
+### Training and Validation Losses
+The graph illustrates the model's learning progress, showing a decline in both training and validation losses over time, which indicates improving model performance.
+
+![image](https://github.com/aridofflimits/IndonesianTextSummarizer/assets/147245715/b479ab56-28d8-441f-a6d7-0c0819fcd7ea)
+
+### ROUGE Score
+This graph displays the ROUGE scores for the summarization model, highlighting its ability to generate summaries that closely match the reference texts in terms of content accuracy and fluency.
+
+![image](https://github.com/aridofflimits/IndonesianTextSummarizer/assets/147245715/3661d609-d5b8-41b9-8a43-653f8a7ac022)
+
+---
+
 # Results
 ## Testing the Model
 
