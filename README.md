@@ -9,7 +9,6 @@ This repository hosts a sequence-to-sequence model that employs BERT for encodin
 - [Methodology](#methodology)
 - [Results](#results)
 - [Room For Improvement](#room-for-improvement)
-- [References](#references)
 - [Attachment](#attachment)
 
 ---
@@ -334,6 +333,11 @@ The result is shown below:
 | **Summarization Parameters** | `min_length=20`, `max_length=80`, `num_beams=10`, `repetition_penalty=2.5`, `length_penalty=1.0`, `early_stopping=True`, `no_repeat_ngram_size=2`, `use_cache=True`, `do_sample=True`, `temperature=0.3`, `top_k=50`, `top_p=0.95` |
 | **Summarized Article**  | tni adalah alat negara yang harus netral dan berada di atas seluruh kekuatan politik yang ada. ini untuk menjaga keamanan teritorial dan keutuhan negara kesatuan republik indonesia, kata hidayat nur wahid.                |
 
+---
 
+# Room for Improvement
+Room for improvement includes additional training sessions to further minimize the loss values, enhancing the model's accuracy and overall summarization quality.
+
+---
 # Attachment
 Google Colab: [Bert2GPT](https://colab.research.google.com/drive/1x1l6m5rKQGUszmX3CkqHf9tpvKvMkpzB#scrollTo=gCEldMjP1FnD)
